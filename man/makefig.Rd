@@ -74,12 +74,14 @@ makefig(plotfun, ..., device = c('window', 'pdf', 'svg'),
   makefig(myplot, x = x, legend = 'Simulation')
   makefig(myplot, x = x, legend = 'Simulation', pointsize = 8)
 
+\donttest{
   makefig(myplot, x = x, legend = 'Simulation',
           device = 'pdf', filename = 'embedding.pdf', family = 'CMSans')
 
   mapply(makefig, device = c('window', 'pdf', 'svg'),
          MoreArgs = list(plotfun = myplot, x = x, legend = 'Simulation',
            filename = 'test', family = 'CMSans'))
+}
 }
 \keyword{ utilities }
 \keyword{ hplot }
