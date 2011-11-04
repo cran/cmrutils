@@ -13,8 +13,8 @@
 \tabular{ll}{
   Package: \tab cmrutils\cr
   Type: \tab Package\cr
-  Version: \tab 1.2-1\cr
-  Date: \tab 2009-06-17\cr
+  Version: \tab 1.2-2\cr
+  Date: \tab 2011-11-04\cr
   License: \tab GPL (>= 3)\cr
 }
 }
