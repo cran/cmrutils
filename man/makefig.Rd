@@ -8,7 +8,7 @@
   care of embedding fonts (see Details).
 }
 \usage{
-makefig(plotfun, ..., device = c('window', 'pdf', 'svg'),
+makefig(plotfun, ..., device = c('default', 'pdf', 'svg'),
         width = 8, height = 6, scale = pointsize/12, pointsize = 12, 
         filename = 'Rplot', family = 'Helvetica')
 }
@@ -56,7 +56,7 @@ makefig(plotfun, ..., device = c('window', 'pdf', 'svg'),
   Returns the result value of call to \code{plotfun} \emph{invisibly}.
 }
 \seealso{
-  \code{\link{x11}}, \code{\link{pdf}}, \code{\link{svg}},
+  \code{\link{dev.new}}, \code{\link{pdf}}, \code{\link{svg}},
 
   Paul Murrell (2005?) Using Computer Modern Fonts in R Graphics.
   \url{http://www.stat.auckland.ac.nz/~paul/R/CM/CMR.html}

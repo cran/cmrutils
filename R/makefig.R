@@ -1,5 +1,5 @@
 `makefig` <-
-function(plotfun, ..., device = c('window', 'pdf', 'svg'),
+function(plotfun, ..., device = c('default', 'pdf', 'svg'),
          width = 8, height = 6, scale = pointsize/12, pointsize = 12, 
          filename = 'Rplot', family = 'Helvetica')
 {
@@ -9,9 +9,9 @@ function(plotfun, ..., device = c('window', 'pdf', 'svg'),
   device.params$pointsize <- pointsize
 
   switch(match.arg(device),
-         window =
+         default =
          {
-           do.call(x11, device.params)
+           do.call(dev.new, device.params)
            result <- plotfun(...)
          },
          pdf =

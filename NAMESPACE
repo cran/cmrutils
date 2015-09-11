@@ -1,4 +1,5 @@
 import(grDevices)
+import(chron)
 
 export(empty)
 export(nan2na)

@@ -1,9 +1,9 @@
 d32239bcb673463ab874e80d47fae504 *COPYING
-44bdc2580d8516e0e08a6a272169ee15 *DESCRIPTION
-8670743890e9520007d5e4bd6e368ffc *NAMESPACE
+0592006bd52735b826d309079224ff84 *DESCRIPTION
+9b7ca3818dade66dc28ebb7c13fd7429 *NAMESPACE
 7aaca740e81a2c2619a88400d9f56758 *R/cmrutils-internal.R
 e73c446bec6eb82bc8f8c373df0e13ed *R/empty.R
-fbf191405d9771171f0dcd7360da09d2 *R/makefig.R
+8960ae72f6db298f3cda4c59499d05da *R/makefig.R
 e5477dbfd5fb0f0157c90273a7d02925 *R/nan2na.R
 5b41a93a53e0f8a21a076cc112a16d7c *R/slice.R
 69d680b50e665a4a8a86d0f393574e21 *R/time365fromDate.R
@@ -29,7 +29,7 @@ ee65b5fca834eb7ea5147e888d8ee396 *inst/fonts/type1/sfsx1000.pfb
 58972af3fccb4c3fd3877d7bde6055fe *inst/fonts/type1/sfti1000.pfb
 5044204d0350bbdbc75d449acb6b5a40 *man/cmrutils-package.Rd
 8e40ad8716135192f1fa214c33397282 *man/empty.Rd
-0a1f85b378502d92511e83b8332daf4e *man/makefig.Rd
+1073a076a6fcb8e282d610a4ca46decf *man/makefig.Rd
 b86deb1be879bf88909073ae8614a0a2 *man/nan2na.Rd
 e7fcab774fb187b1f14e824d8c23a504 *man/slice.Rd
 657c73cb57dc224f0758fb8146d6b9f4 *man/time356.Rd
